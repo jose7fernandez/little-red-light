@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+h3 {
+    text-align: center;
+    padding-top: 10px;
+    color: #aa3836;
+    line-height: 30px;
+    background: #4f74ef;
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    /* Nav container color */
+    background: #4f74ef;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+
+/* Nav text when normal */
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 60px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    /* Nav text transition from normal to hoover (see below) mode */
+    transition: .5s;
+}
+
+
+/* Nav text when in hover mode */
+
+nav ul li a:hover {
+    color: #1F3446;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* This styles main content
+================================ */
+
+.main-content img {
+    width: 100%;
+    margin: 0px;
+    position: relative;
+}
+
+.about-content img {
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    opacity: .25;
+}
+
+.about-content p {
+    position: relative;
+    bottom: 0;
+    left: 1.8em;
+    width: 95%;
+    font-size: 15px;
+    color: black;
+    font-style: bold;
+    
+    
+    font-family: 'Noto Sans', sans-serif;
+    text-align: justify;
+}
+
+footer {
+    background: #4f74ef;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Noto Sans', sans-serif;
+}

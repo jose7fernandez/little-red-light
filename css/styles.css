@@ -1,32 +1,29 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 * {
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-html {
-    position: relative;
-}
+
 body {
-    padding-bottom: 60px;
-    position: static;
+    background-color: #4f74ef;
 }
+
 header,
 h3 {
-    text-align: center;
-    padding-top: 10px;
+    background-color: #4f74ef;
     color: #aa3836;
-    line-height: 30px;
-    background: #4f74ef;
     font-size: 30px;
-    font-family: 'Noto Sans', sans-serif;
+    line-height: 30px;
+    padding-top: 10px;
+    text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    text-align: center;
     /* Nav container color */
     background: #4f74ef;
+    list-style: none;
+    text-align: center;
 }
 
 nav ul li {
@@ -38,11 +35,10 @@ nav ul li {
 /* Nav text when normal */
 
 nav ul li a {
-    text-decoration: none;
+    color: white;
     font-size: 15px;
     line-height: 60px;
-    color: white;
-    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
     /* Nav text transition from normal to hoover (see below) mode */
     transition: .5s;
 }
@@ -52,49 +48,65 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #1F3446;
-    font-size: 20px;
-    font-family: 'Noto Sans', sans-serif;
 }
 
 
 /* This styles main content
 ================================ */
 
-.main-content img {
-    width: 100%;
+.main-content {
+    background-attachment: scroll;
+    background-color: #4f74ef;
+    background-image: url(../images/Little%20Red%20Lighthouse%2004%202012.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
     margin: 0px;
-    position: relative;
+    width: 100%;
 }
 
-
-.about-content img {
+.about-content {
+    background-attachment: scroll;
+    background-image: url(../images/Little%20Red%20lighthouse%202%2004%202012.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-bottom: 35px;
     width: 100%;
-    margin: 0px;
-    position: absolute;
-    opacity: .25;
+}
+
+.about-content h2 {
+    color: #aa3836;
+    padding: 15px;
+    text-align: center;
 }
 
 .about-content p {
-    position: relative;
-    bottom: 0;
-    left: 1.8em;
-    width: 95%;
-    font-size: 15px;
-    color: black;
-    font-style: bold;
-    
-    
-    font-family: 'Noto Sans', sans-serif;
-    text-align: justify;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.map {
+    height: auto;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
     background: #4f74ef;
-    text-align: center;
+    bottom: 0;
+    left: 0;
     line-height: 60px;
-    font-family: 'Noto Sans', sans-serif;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    text-align: center;
     width: 100%;
-    
 }

@@ -66,33 +66,43 @@ nav ul li a:hover {
     width: 100%;
 }
 
+
+/*ABOUT page*/
+
 .about-content {
     background-attachment: scroll;
     background-image: url(../images/Little%20Red%20lighthouse%202%2004%202012.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: center;
     height: auto;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     width: 100%;
 }
 
 .about-content h2 {
+    background-color: white;
     color: #aa3836;
+    opacity: .7;
     padding: 15px;
     text-align: center;
 }
 
 .about-content p {
-    color: white;
+    background-color: white;
     font-size: 17px;
-    font-weight: 400;
+    font-weight: 700;
+    height: auto;
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     text-align: center;
+    opacity: .7;
     width: 100%;
 }
+
+
+/*LOCATION page*/
 
 .map {
     height: auto;

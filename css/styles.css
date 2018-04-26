@@ -19,6 +19,11 @@ h3 {
     text-align: center;
 }
 
+header h3 a {
+    color: #aa3836;
+    text-decoration: none;
+}
+
 nav ul {
     /* Nav container color */
     background: #4f74ef;
